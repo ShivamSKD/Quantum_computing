@@ -21,6 +21,6 @@ python3 -m timeit -s 'import pure_factorization' 'pure_factorization.factorize(8
 * pure_factorization.py
   * Classical way of finding prime factors
 
-## Quantum-boost (Shor's) Algorithm
+## Grover Boost  Algorithm
 
 Reduces the time complexity of finding the input to a black box(Oracle) function that produces a particular output from O(N) to O(sqrt(N)).
